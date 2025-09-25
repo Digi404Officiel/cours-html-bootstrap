@@ -21,16 +21,16 @@ Idéal pour une page de présentation d’école, entreprise, ou portfolio.
 ## ⚡ Installation & Utilisation  
 
 1. **Clonez le projet :**
-   ```bash 
+```bash 
    git clone https://github.com/votre-repo/template-bootstrap-css.git
    cd template-bootstrap-css
-    ```
+```
 
 2. **Ouvrez le fichier dans votre navigateur :**
 
-   ```bash
+```bash
    open index.html
-   ```
+```
 
 3. **Personnalisez les couleurs** via `style.css` si besoin.
 
