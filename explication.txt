@@ -1,0 +1,118 @@
+D’accord 👍 Je vais te donner des explications **claires et pratiques** pour chaque paramètre ou classe Bootstrap ainsi que pour le terme *hero* en HTML.
+
+---
+
+### **1. `navbar-expand-lg`**
+
+* **Rôle :** Indique que la barre de navigation s’affiche **pleine largeur** à partir de l’écran **Large (≥992px)**.
+* **En dessous de 992px**, la navbar devient **collapsée** (réduite dans un menu hamburger).
+
+---
+
+### **2. `sticky-top`**
+
+* **Rôle :** Fait en sorte que l’élément (souvent le header) **reste collé en haut** de la page quand on défile vers le bas.
+* Très utile pour garder le menu toujours visible.
+
+---
+
+### **3. `navbar-brand`**
+
+* **Rôle :** Spécifie l’élément qui représente **la marque ou le logo** dans la barre de navigation.
+* Souvent un **logo** ou **le nom du site** placé à gauche.
+
+---
+
+### **4. `data-bs-toggle="collapse"`**
+
+* **Rôle :** Utilisé avec Bootstrap JS, cela indique que **l’élément déclenche une action** (ici, **ouvrir/fermer le menu**).
+* Quand tu cliques sur le bouton hamburger, ça déclenche l’effet de **collapse**.
+
+---
+
+### **5. `collapse navbar-collapse`**
+
+* **Rôle :**
+
+  * `collapse` : Rend la section **rétractable** (cachée sur petits écrans).
+  * `navbar-collapse` : Cible spécifique pour la navbar, indique quelle zone doit s’ouvrir/fermer.
+
+---
+
+### **6. `<ul class="navbar-nav mx-auto">`**
+
+* **Rôle :**
+
+  * `navbar-nav` : Cible les **éléments du menu** dans la navbar.
+  * `mx-auto` : Applique des **marges horizontales automatiques**, ce qui **centre** le menu.
+
+---
+
+### **7. `<li class="nav-item">`**
+
+* **Rôle :** Chaque **élément de menu** doit avoir `nav-item` pour être stylé correctement dans Bootstrap.
+
+---
+
+### **8. *Hero en HTML***
+
+* **Rôle :** Le *hero* est **la grande bannière en haut d’une page**, souvent avec :
+
+  * Un titre accrocheur
+  * Un texte de présentation
+  * Une image ou un visuel
+* Exemple : Sur un site d’école, c’est la section d’accueil avec le slogan principal.
+
+---
+
+### **9. `<div class="col-md-6 text-center text-md-start mb-4 mb-md-0">`**
+
+* **Rôle :**
+
+  * `col-md-6` : Prend **50% de la largeur** sur écran moyen (≥768px) et 100% sur petit écran.
+  * `text-center` : Centre le texte sur petits écrans.
+  * `text-md-start` : Aligne à gauche dès que l’écran est ≥768px.
+  * `mb-4` : Ajoute une **marge en bas** sur petits écrans.
+  * `mb-md-0` : Retire la marge en bas dès que l’écran est ≥768px.
+
+---
+
+### **10. `<h1 class="fw-bold">`**
+
+* **Rôle :** `fw-bold` rend le texte **gras** (Font Weight = Bold).
+
+---
+
+### **11. `class="img-fluid"`**
+
+* **Rôle :** Rend l’image **responsive** → elle s’adapte à la taille du parent tout en gardant ses proportions.
+
+---
+
+### **12. `class="py-5"`**
+
+* **Rôle :** Ajoute une **padding verticale** (`padding-top` et `padding-bottom`) de taille `5` (spacement standard Bootstrap).
+
+---
+
+### **13. `<div class="row g-4">`**
+
+* **Rôle :**
+
+  * `row` : Crée une **ligne** pour le système de grille Bootstrap.
+  * `g-4` : Ajoute un **gap** (espacement) de 4 entre les colonnes.
+
+---
+
+### **14. `top-0 start-50 translate-middle`**
+
+* **Rôle :** Sert pour **positionner un élément** :
+
+  * `top-0` : Collé en haut
+  * `start-50` : Décalé à **50% depuis la gauche**
+  * `translate-middle` : Centre l’élément **horizontalement** (et verticalement si combiné avec `top-50`).
+
+---
+
+Si tu veux, je peux te faire **un petit schéma visuel** pour montrer l’effet de chacun en direct.
+Tu veux que je le fasse ?
